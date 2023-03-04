@@ -1,0 +1,101 @@
+@media only screen and (max-width:600px){
+
+    html{
+        font-size: 14px;
+        margin: 9% 4% 2% 4%
+    }
+
+    header{
+        display: grid;
+        grid-template-columns: 93% 7%;
+        margin-bottom: 5%;
+    }
+
+    header nav{
+        display: block;
+    }
+
+    header nav h1{
+        width:100%;
+        font-size: 2.2rem;
+    }
+
+    header nav a{
+        display: none;
+    }
+
+    header > img{
+        display: inline-block;
+        text-align: right ;
+    }
+
+    header > img:hover{
+        cursor: pointer;
+    }
+
+    .container{
+        grid-template-columns: 100%;
+        column-gap: 2.4%;
+    }
+
+    .artBig{
+        grid-column: 1/2;
+        grid-template-rows: min-content min-content 1fr;       
+    }
+
+
+    .artBig .price{
+        align-items: flex-start;
+    }
+
+    .container article{
+        margin-bottom: 4%
+    }
+
+    .artSmall_1{
+        grid-template-rows: min-content 1fr 1fr;
+    }
+
+    .artSmall_2{
+        grid-template-rows: min-content 1fr 1fr;
+    }
+
+    .artSmall_3{
+        grid-template-rows: min-content 1fr 1fr;
+    }
+
+    .artSmall_4{
+        grid-template-rows: min-content 1fr 1fr;
+    }
+
+    .artSmall_5{
+        grid-template-rows: min-content 1fr 1fr;
+    }
+
+    .artSmall_6{
+        grid-template-rows: min-content 1fr 1fr;
+    }
+
+    .footerInfo{
+        display: flex;
+        justify-content: space-between;
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .footerInfo h3{
+        margin-top: 4rem;
+        padding-bottom: 1.5rem;
+        
+        font-weight: 500;
+    }
+
+    .footerInfo article:nth-of-type(1){
+        width: 84%;
+    }
+
+    .footerInfo article:nth-of-type(3){
+        width: 84%;
+    }
+
+}

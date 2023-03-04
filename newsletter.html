@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="./assets/css/newsletter.css">
+</head>
+<body>
+    <main>
+        <section>
+            <h2>NEWSLETTER BY</h2>
+            <h1>THE DESIGN SHOP</h1>
+
+            <form id="form" action="#" onsubmit="return false">
+                <label for="email">Get the latest news....</label>
+                <input type="email" name="email" id="inputEmail" placeholder="Enter your email address here ">
+                <input type="submit" value="Subscribe" id="subscribeBtn" onclick="confirmationPopUp()">
+
+                <div id="popUp" class="hidden">
+                    <h2>Your Email has been confirmed.</h2>
+                    <h1>THANK'S FOR SUBSCRIBING!</h1>
+                    <p>
+                    Now we just need you to confirm your email address - please click the link
+                    in the email we sent you. <br> Thanks!
+                    </p>
+                    <a href="./index.html">BACK TO THE DESIGN SHOP</a>
+                </div>
+            </form>
+        
+            <p>Don't want to receive our Newsletter...</p>
+            <a href="./index.html"> Go back to <span>The Design Shop</span></a>
+        </section>
+    </main>
+
+<script src="./assets/js/newsletter.js"></script>   
+</body>
+</html>

@@ -1,0 +1,132 @@
+@font-face {
+    font-family: 'Karla';
+    src: url("../fonts/Karla-VariableFont_wght.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-family: 'Karla';
+    margin: 4% 9.2% 2% 9.2%;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh auto;
+}
+
+h2{
+    font-size: 3rem;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+h1{
+    font-size: 5rem;
+    font-weight: 500;
+    padding-bottom: 4rem;
+}
+
+section form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5rem;
+    line-height: 3rem;
+}
+
+section form label{
+    font-size: 2rem;
+    text-align: center;
+}
+
+section form input:nth-of-type(1){
+    padding: 5% 0;
+    width: 20vw;
+    text-align: center;
+    margin-bottom: 5%;
+    border-radius: 5px;
+    border: 1px solid #848484;
+}
+
+section form input:nth-of-type(2){
+    padding: 5% 0;
+    width: 20vw;
+    text-align: center;
+    margin-bottom: 5%;
+    color: white;
+    font-size: 2rem;
+    background-color: #323A45;
+    border-radius: 5px;
+    border: 1px solid #848484;
+}
+
+section form input:nth-of-type(2):hover{
+    cursor: pointer;
+    background-image: radial-gradient(circle, #323a45, #474b54, #5c5d64, #707073, #848484);
+}
+
+section p{
+    font-size: 1.5rem;
+}
+
+section a{
+    font-size: 1.5rem;
+    color: inherit;
+}
+
+section a:hover{
+    font-size: 1.5rem;
+}
+
+#popUp{
+    text-align: center;
+    background-color: white;
+    padding: 6% 13% 10% 13%;
+    transform: translateY(-110%);
+    border-radius: 5px;
+    border: 1px solid #848484;
+    box-shadow: 2px 2px 11px 6px rgba(132,132,132,0.81);
+    line-height: normal;
+}
+
+#popUp h1{
+    padding: 4% 0;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#popUp p{
+    padding-bottom: 9%;
+}
+
+#popUp a{
+    padding:5%;
+    font-size: 2rem;
+    border: 1px solid #848484;
+    background-color: #323A45;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#popUp a:hover{
+    background-image: radial-gradient(circle, #323a45, #474b54, #5c5d64, #707073, #848484)
+}
+
+.openPopUp{
+    display: block;
+    margin: 10rem auto 0 auto;
+}
+
+.hidden{
+    display:none;
+}
